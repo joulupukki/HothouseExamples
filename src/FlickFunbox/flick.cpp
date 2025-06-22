@@ -165,10 +165,10 @@ float plateDelay = 0.0;
 float plateDry = 1.0;
 float plateWet = 0.5;
 
-float plateDecay = 0.67;
+float plateDecay = 0.8;
 float plateTimeScale = 1.007500;
 
-float plateTankDiffusion = 0.7;
+float plateTankDiffusion = 0.85;
 
   /**
    * Good Defaults
@@ -184,14 +184,14 @@ float plateTankDiffusion = 0.7;
 
 // The damping values appear to be want to be between 0 and 10
 float plateInputDampLow = 2.87; // approx 100Hz
-float plateInputDampHigh = 6.77; // approx 1.5kHz
+float plateInputDampHigh = 7.25;
 
 float plateTankDampLow = 2.87; // approx 100Hz
-float plateTankDampHigh = 6.77; // approx 1.5kHz
+float plateTankDampHigh = 7.25;
 
-float plateTankModSpeed = 1.0;
-float plateTankModDepth = 0.5;
-float plateTankModShape = 0.75;
+float plateTankModSpeed = 0.1;
+float plateTankModDepth = 0.1;
+float plateTankModShape = 0.25;
 
 const float minus18dBGain = 0.12589254;
 const float minus20dBGain = 0.1;

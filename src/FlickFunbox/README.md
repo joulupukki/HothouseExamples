@@ -28,9 +28,9 @@ Updated demo video (6 January 2025):
 | KNOB 4 | Delay Time |  |
 | KNOB 5 | Delay Feedback |  |
 | KNOB 6 | Delay Dry/Wet Amount |  |
-| SWITCH 1 | Reverb knob funcion | **UP** - 0% Dry, 0-100% Wet<br/>**MIDDLE** - Dry/Wet Mix<br/>**DOWN** - 100% Dry, 0-100% Wet |
-| SWITCH 2 | Tremolo Waveform | **UP** - Square<br/>**MIDDLE** - Triangle<br/>**DOWN** - Sine<br/>*Square wave currently clicks and this is a [known bug](https://github.com/joulupukki/hothouse-effects/issues/9).* |
-| SWITCH 3 | Trem & Delay Makeup Gain | **UP** - Plus<br/>**MIDDLE** - Normal<br/>**DOWN** - None |
+| SWITCH 1 | Reverb knob funcion | **LEFT** - 100% Dry, 0-100% Wet<br/>**MIDDLE** - Dry/Wet Mix<br/>**RIGHT** - 0% Dry, 0-100% Wet |
+| SWITCH 2 | Tremolo Waveform | **LEFT** - Sine<br/>*Square wave currently clicks and this is a [known bug](https://github.com/joulupukki/hothouse-effects/issues/9).*<br/>**MIDDLE** - Triangle<br/>**RIGHT** - Square |
+| SWITCH 3 | Trem & Delay Makeup Gain | **LEFT** - None<br/>**MIDDLE** - Normal<br/>**RIGHT** - Plus |
 | FOOTSWITCH 1 | Reverb On/Off | Normal press toggles reverb on/off.<br/>Double press toggles reverb edit mode (see below).<br/>Long press for DFU mode. |
 | FOOTSWITCH 2 | Delay/Tremolo On/Off | Normal press toggles delay.<br/>Double press toggles tremolo.<br/><br/>**LED:**<br/>- 100% when only relay is active<br/>- 40% pulsing when only tremolo is active<br/>- 100% pulsing when both are active |
 
@@ -45,11 +45,11 @@ Updated demo video (6 January 2025):
 | KNOB 4 | Tank Diffusion |  |
 | KNOB 5 | Input High Cutoff Frequency |  |
 | KNOB 6 | Tank High Cutoff Frequency |  |
-| SWITCH 1 | Tank Mod Speed | **UP** - High<br/>**MIDDLE** - Medium<br/>**DOWN** - Low |
-| SWITCH 2 | Tank Mod Depth | **UP** - High<br/>**MIDDLE** - Medium<br/>**DOWN** - Low |
-| SWITCH 3 | Tank Mod Shape | **UP** - High<br/>**MIDDLE** - Medium<br/>**DOWN** - Low |
-| FOOTSWITCH 1 | Save & Exit | Saves all parameters and exits Reverb Edit Mode.<br/>Long press for DFU mode. |
-| FOOTSWITCH 2 | Save & Exit | Saves all parameters and exits Reverb Edit Mode. |
+| SWITCH 1 | Tank Mod Speed | **LEFT** - Low<br/>**MIDDLE** - Medium<br/>**RIGHT** - High |
+| SWITCH 2 | Tank Mod Depth | **LEFT** - Low<br/>**MIDDLE** - Medium<br/>**RIGHT** - High |
+| SWITCH 3 | Tank Mod Shape | **LEFT** - Low<br/>**MIDDLE** - Medium<br/>**RIGHT** - High |
+| FOOTSWITCH 1 | **CANCEL** & Exit | Discards parameter changes and exits Reverb Edit Mode.<br/>Long press for DFU mode. |
+| FOOTSWITCH 2 | **SAVE** & Exit | Saves all parameters and exits Reverb Edit Mode. |
 
 ### Factory Reset (Restore default reverb parameters)
 
